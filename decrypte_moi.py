@@ -10,6 +10,7 @@ def dechiffrer_message(messages):
     chiffre = "1,2,3,4,5,6,7,8,9"
     resultat = ""
 
+    # code de dechiffre inspiré de mes notes que j'ai pris quand je pratiquais.
     while indice>=3:
         mot_crypter = messages["cryptes"][indice]
         for caractere in mot_crypter:
